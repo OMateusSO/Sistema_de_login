@@ -1,29 +1,29 @@
-.area-login{
+.area-registrar{
     display: flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
 }
 
-.log{
+.regi{
     display: flex;
     flex-direction: column;
     align-items: center;
     background: rgba(0, 0, 0, 0.4);
     width: 355px;
-    height: 320px;
+    height: 360px;
     padding: 35px;
     border: none;
     border-radius: 10px;
 }
 
-.log form{
+.regi form{
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.log input{
+.regi input{
     margin-top: 10px;
     background-color:rgb(49, 49, 54);
     height: 40px;
@@ -34,7 +34,7 @@
     padding-left: 10px;
 }
 
-.log img{
+.regi img{
     width: 100px;
     height: auto;
 }
@@ -48,7 +48,7 @@
 
 form [type=submit]{
     display: block;
-    background-color: rgb(131, 124, 124);
+    background-color: rgb(134, 134, 134);
     font-size: 18px;
     text-transform: uppercase;
     font-weight: bold;
